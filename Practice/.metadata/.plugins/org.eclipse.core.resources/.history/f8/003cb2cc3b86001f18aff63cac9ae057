@@ -1,0 +1,13 @@
+package test;
+
+public class StringEqualsOperation {
+	public static void main(String[] args) {
+		String st="test1";
+		String st1="test";
+		String st3=st1;
+		
+		System.out.println(st==st1);
+		System.out.println(st.equals(st1));
+		System.out.println(st3==st1);
+	}
+}
